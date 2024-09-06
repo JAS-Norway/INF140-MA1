@@ -20,8 +20,8 @@ def decrypt(ciphertext, keystream):
     return plaintext
 
 
-inputText = input("What do you want to encrypt/decrypt? ").lower()
-key = input("What is the key? ").lower()
+inputText = input("What do you want to encrypt/decrypt? ").lower().replace(" ", "")
+key = input("What is the key? ").lower().replace(" ", "")
 encryptOrDecrypt = input("Write 'e' to encrypt or 'd' to decrypt: ")
 
 inputTextLength = len(inputText)
