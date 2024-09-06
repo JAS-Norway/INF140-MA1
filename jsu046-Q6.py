@@ -2,6 +2,8 @@
 import hashlib
 import sys
 
+# STUDENT ID: jsu046
+
 def userPasswordKnown(userpassword):
     """
     Takes known password userPassword.
