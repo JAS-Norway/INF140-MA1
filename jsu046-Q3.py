@@ -1,4 +1,6 @@
 
+# STUDENT ID: jsu046
+
 def encrypt(plaintext, keystream):
     ciphertext = ""
     plaintextLength = len(plaintext)
